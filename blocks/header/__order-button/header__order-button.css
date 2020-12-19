@@ -1,0 +1,9 @@
+.header__order-button {
+  width: 270px;
+  position: absolute;
+  left: 40px;
+  bottom: 110px;
+  font-size: 50px;
+  border-radius: 15px;
+  border: 0;
+}
