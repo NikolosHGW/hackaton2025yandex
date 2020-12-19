@@ -3,10 +3,10 @@
 @import url("../blocks/body/body.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
-@import url("../blocks/header/__heading/header__heading.css");
-@import url("../blocks/header/__discrpt/header__discrpt.css");
-@import url("../blocks/mask/mask.css");
-@import url("../blocks/mask/__eyes/mask__eyes.css");
-@import url("../blocks/mask/__main/mask__main.css");
-@import url("../blocks/mask/__text/mask__text.css");
-@import url("../blocks/mask/__refresh-button/mask__refresh-button.css");
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/header/__title/header__title.css");
+@import url("../blocks/colors/colors.css");
+@import url("../blocks/colors/__button/colors__button.css");
+@import url("../blocks/colors/__button/_color/colors__button_color_gray.css");
+@import url("../blocks/colors/__button/_color/colors__button_color_brown.css");
+@import url("../blocks/colors/__button/_color/colors__button_color_purple.css");
