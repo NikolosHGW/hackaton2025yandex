@@ -2,4 +2,9 @@
   position: absolute;
   left: 40px;
   bottom: 300px;
+  max-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 20px 40px;
+  /* justify-items: center; */
 }

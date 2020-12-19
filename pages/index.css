@@ -7,6 +7,6 @@
 @import url("../blocks/header/__title/header__title.css");
 @import url("../blocks/colors/colors.css");
 @import url("../blocks/colors/__button/colors__button.css");
-@import url("../blocks/colors/__button/_color/colors__button_color_gray.css");
-@import url("../blocks/colors/__button/_color/colors__button_color_brown.css");
+@import url("../blocks/colors/__button/_color/colors__button_color_blue.css");
+@import url("../blocks/colors/__button/_color/colors__button_color_slategray.css");
 @import url("../blocks/colors/__button/_color/colors__button_color_purple.css");
