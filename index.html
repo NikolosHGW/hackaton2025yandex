@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Title</title>
+  <title>Стих-маска — сгенерируй уникальную маску</title>
 </head>
 <body class="body">
   <div class="page">
@@ -28,14 +28,14 @@
         </div>
         <div class="header__div-right">
           <p class="header__text">
-            Неповторимая маска имеет анатомическую форму и гарантирует защиту от вирусов.
+            Неповторимая маска имеет анатомическую форму и гарантирует защиту от&nbsp;вирусов.
           </p>
           <p class="header__text">
-            Созданная Вами лицевая маска будет соответствовать "тут какой-нибудь закон и всё такое :)" от 1 января 2025 года.
+            Созданная Вами лицевая маска будет соответствовать «тут какой-нибудь закон и всё такое :)» от&nbsp;1&nbsp;января 2025&nbsp;года.
           </p>
         </div>
       </div>
-      <button class="header__order-button" type="button">Добавить в корзину</button>
+      <button class="header__order-button" type="button" disabled>Добавить в корзину</button>
     </header>
 
     <section class="content">
@@ -46,11 +46,14 @@
           <p class="face__verse">Я московский озорной гуляка По всему тверскому околотку В переулках каждый собака Знает мою легкую походку</p>
         </div>
       </div>
-      <button class="content__refresh-button" type="button">Сгенерировать</button>
+      <form name="generate-form">
+        <button class="content__refresh-button" type="submit">Сгенерировать</button>
+      </form>
     </section>
     <footer class="footer">
 
     </footer>
   </div>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>
