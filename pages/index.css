@@ -16,3 +16,11 @@
 @import url("../blocks/header/__div-right/header__div-right.css");
 @import url("../blocks/header/__text/header__text.css");
 @import url("../blocks/header/__order-button/header__order-button.css");
+@import url("../blocks/content/content.css");
+@import url("../blocks/content/__basket/content__basket.css");
+@import url("../blocks/content/__basket-button/content__basket-button.css");
+@import url("../blocks/face/face.css");
+@import url("../blocks/face/__eyes/face__eyes.css");
+@import url("../blocks/face/__mask/face__mask.css");
+@import url("../blocks/face/__verse/face__verse.css");
+@import url("../blocks/content/__refresh-button/content__refresh-button.css");
