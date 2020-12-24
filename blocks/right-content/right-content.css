@@ -2,9 +2,9 @@
   width: 50%;
   height: 100vh;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
+  padding-bottom: 102px;
+  padding-right: 30px;
+  display: flex;
+  align-items: flex-end;
 }

@@ -27,7 +27,7 @@ form.addEventListener('submit', e => {
   })
   .then(() => {
 
-  form.setAttribute("style", "display: block");
+  // form.setAttribute("style", "display: block");
 
   var itemStih = newStih[Math.floor(Math.random() * newStih.length)];
 

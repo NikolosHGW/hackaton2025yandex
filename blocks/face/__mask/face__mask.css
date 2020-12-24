@@ -1,10 +1,10 @@
 .face__mask {
-  width: 600px;
-  height: 400px;
+  width: 560px;
+  height: 291px;
   background-image: url("../../../images/mask.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 600px 300px;
+  background-size: 560px 291px;
   margin: 0;
   display: flex;
   justify-content: center;

@@ -1,7 +1,9 @@
 .face__verse {
   margin: 0;
-  width: 300px;
+  max-width: 345px;
   text-align: center;
-  color: #ffffff;
-  font-size: 20px;
+  color: #F6F3EE;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
 }

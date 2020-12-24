@@ -2,7 +2,7 @@
   width: 50%;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   box-sizing: border-box;
   padding-left: 2.35%;

@@ -26,8 +26,10 @@
 @import url("../blocks/right-content/__basket-text/right-content__basket-text.css");
 @import url("../blocks/right-content/__basket/right-content__basket.css");
 @import url("../blocks/right-content/__basket-button/right-content__basket-button.css");
+@import url("../blocks/right-content/__container/right-content__container.css");
 @import url("../blocks/face/face.css");
 @import url("../blocks/face/__eyes/face__eyes.css");
 @import url("../blocks/face/__mask/face__mask.css");
 @import url("../blocks/face/__verse/face__verse.css");
+@import url("../blocks/right-content/__form/right-content__form.css");
 @import url("../blocks/right-content/__refresh-button/right-content__refresh-button.css");
