@@ -2,6 +2,5 @@
   max-width: 300px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-  gap: 20px 40px;
-  /* justify-items: center; */
+  gap: 20px 30px;
 }

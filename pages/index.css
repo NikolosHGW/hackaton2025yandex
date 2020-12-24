@@ -1,10 +1,16 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("../blocks/body/body.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/left-content/left-content.css");
+@import url("../blocks/left-content/__box/left-content__box.css");
 @import url("../blocks/logo/logo.css");
+@import url("../blocks/left-content/__logo/left-content__logo.css");
 @import url("../blocks/left-content/__title/left-content__title.css");
+@import url("../blocks/left-content/__price/left-content__price.css");
 @import url("../blocks/colors/colors.css");
 @import url("../blocks/colors/__button/colors__button.css");
 @import url("../blocks/left-content/__container/left-content__container.css");

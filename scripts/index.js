@@ -1,9 +1,9 @@
 let urlsss = 'https://raw.githubusercontent.com/IlyaGusev/PoetryCorpus/master/datasets/django/all_django.json';
 let quantityMask = 0;
 
-const orderButton = document.querySelector('.header__order-button');
-const basketButton = document.querySelector('.content__basket-button');
-const refreshVerseButton = document.querySelector('.content__refresh-button');
+const orderButton = document.querySelector('.left-content__order-button');
+const basketButton = document.querySelector('.right-content__basket-button');
+const refreshVerseButton = document.querySelector('.right-content__refresh-button');
 const maskPoemContent = document.querySelector('.face__verse');
 
 const form = document.forms['generate-form'];

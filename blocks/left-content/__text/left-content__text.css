@@ -1,0 +1,14 @@
+.left-content__text {
+  width: 294px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  color: #3D3C3C;
+  margin: 0 0 15px;
+}
+
+.left-content__text:last-of-type {
+  color: #726F6F;
+  margin-bottom: 0;
+}

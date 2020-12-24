@@ -1,0 +1,11 @@
+.left-content__subtitle {
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 29px 0 15px;
+}
+
+.left-content__subtitle:first-child {
+  margin-top: 0;
+}
