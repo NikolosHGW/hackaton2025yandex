@@ -3,4 +3,10 @@
   outline: 0;
   width: 30px;
   height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  background-image: url('../../../images/basket.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgba(0, 0, 0, 0);
 }
