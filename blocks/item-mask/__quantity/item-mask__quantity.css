@@ -1,0 +1,9 @@
+.item-mask__quantity {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1;
+  margin: 0 25px;
+  width: 15px;
+  height: 25px;
+}

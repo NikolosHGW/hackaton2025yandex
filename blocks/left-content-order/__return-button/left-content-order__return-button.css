@@ -1,0 +1,13 @@
+.left-content-order__return-button {
+  padding: 0;
+  border: 0;
+  outline: 0;
+  width: 184px;
+  height: 38px;
+  background-color: #C4C4C4;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.38;
+}

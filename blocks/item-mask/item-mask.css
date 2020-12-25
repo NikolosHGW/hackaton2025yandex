@@ -1,0 +1,5 @@
+.item-mask {
+  max-width: 513px;
+  display: flex;
+  flex-basis: 513px;
+}

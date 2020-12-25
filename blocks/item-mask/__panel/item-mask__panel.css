@@ -1,0 +1,5 @@
+.item-mask__panel {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}

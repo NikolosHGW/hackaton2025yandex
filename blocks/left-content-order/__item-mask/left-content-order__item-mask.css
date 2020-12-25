@@ -1,0 +1,7 @@
+.left-content-order__item-mask {
+  margin-bottom: 30px;
+}
+
+.left-content-order__item-mask:last-of-type {
+  margin-bottom: 0;
+}

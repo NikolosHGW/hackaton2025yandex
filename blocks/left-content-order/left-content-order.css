@@ -1,0 +1,8 @@
+.left-content-order {
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  flex-basis: 640px;
+}

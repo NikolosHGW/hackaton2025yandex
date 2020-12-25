@@ -10,7 +10,7 @@
   <div class="page page_type_choose page_disable">
     <section class="left-content page__left-content">
       <img class="logo left-content__logo" src="./images/LogoFaceMaskWithText.svg" alt="Здесь будет голова с маской">
-      <h1 class="left-content__title">Сгенерируй уникальную маску</h1>
+      <h2 class="left-content__title">Сгенерируй уникальную маску</h2>
       <p class="left-content__price">Цена: 1200 руб.</p>
       <div class="left-content__container">
         <div class="left-content__div-left">
@@ -56,7 +56,38 @@
     </section>
   </div>
   <div class="page page_type_order">
-    <section class="left-content"></section>
+    <section class="left-content-order page__left-content-order">
+      <button class="left-content-order__return-button" type="button"><img src="./images/arrow.svg"> Назад в меню</button>
+      <h2 class="left-content-order__heading">Корзина</h2>
+      <div class="left-content-order__masks">
+        <div class="item-mask left-content-order__item-mask">
+          <img class="item-mask__mask" src="./images/mini-mask1.svg">
+          <p class="item-mask__info">
+            Маска с легальным самовыражением. Серая
+            <span class="item-mask__total">1200 руб.</span>
+          </p>
+          <div class="item-mask__panel">
+            <button class="item-mask__minus-button" type="button" aria-label="кнопка минус"></button>
+            <p class="item-mask__quantity">1</p>
+            <button class="item-mask__plus-button" type="button" aria-label="кнопка плюс"></button>
+          </div>
+        </div>
+        <div class="item-mask left-content-order__item-mask">
+          <img class="item-mask__mask" src="./images/mini-mask2.svg">
+          <p class="item-mask__info">
+            Маска с легальным самовыражением. Красная
+            <span class="item-mask__total">1200 руб.</span>
+          </p>
+          <div class="item-mask__panel">
+            <button class="item-mask__minus-button" type="button" aria-label="кнопка минус"></button>
+            <p class="item-mask__quantity">1</p>
+            <button class="item-mask__plus-button" type="button" aria-label="кнопка плюс"></button>
+          </div>
+        </div>
+      </div>
+      <p class="left-content-order__total">Итог: 2400руб.</p>
+      <button class="left-content-order__buy-button" type="button">Купить</button>
+    </section>
 
     <section class="right-content"></section>
   </div>
