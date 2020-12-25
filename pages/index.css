@@ -5,9 +5,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("../blocks/body/body.css");
 @import url("../blocks/page/page.css");
+@import url("../blocks/page/_disable/page_disable.css");
 @import url("../blocks/left-content/left-content.css");
 @import url("../blocks/page/__left-content/page__left-content.css");
-@import url("../blocks/left-content/__box/left-content__box.css");
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/left-content/__logo/left-content__logo.css");
 @import url("../blocks/left-content/__title/left-content__title.css");
@@ -28,7 +28,6 @@
 @import url("../blocks/right-content/__basket-text/right-content__basket-text.css");
 @import url("../blocks/right-content/__basket/right-content__basket.css");
 @import url("../blocks/right-content/__basket-button/right-content__basket-button.css");
-@import url("../blocks/right-content/__container/right-content__container.css");
 @import url("../blocks/face/face.css");
 @import url("../blocks/face/__eyes/face__eyes.css");
 @import url("../blocks/face/__mask/face__mask.css");
