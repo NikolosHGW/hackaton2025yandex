@@ -1,10 +1,7 @@
 .right-content {
-  width: 50%;
-  height: 100vh;
+  max-width: 640px;
   box-sizing: border-box;
   position: relative;
-  padding-bottom: 102px;
-  padding-right: 30px;
   display: flex;
   align-items: flex-end;
 }

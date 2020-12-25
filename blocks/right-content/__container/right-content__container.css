@@ -1,4 +1,5 @@
 .right-content__container {
+  max-width: 560px;
   display: flex;
   flex-direction: column;
 }

@@ -1,11 +1,7 @@
 .left-content {
-  width: 50%;
-  height: 100vh;
+  max-width: 640px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   box-sizing: border-box;
-  padding-left: 2.35%;
-  padding-top: 40px;
-  padding-bottom: 102px;
 }

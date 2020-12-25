@@ -5,4 +5,9 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F3EE;
+  height: 100vh;
 }
