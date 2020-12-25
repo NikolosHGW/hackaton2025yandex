@@ -1,7 +1,8 @@
 .left-content {
   max-width: 640px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   box-sizing: border-box;
+  flex-basis: 640px;
 }

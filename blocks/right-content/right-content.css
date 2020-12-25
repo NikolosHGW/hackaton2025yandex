@@ -1,7 +1,7 @@
 .right-content {
   max-width: 640px;
   box-sizing: border-box;
-  position: relative;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  flex-basis: 640px;
 }

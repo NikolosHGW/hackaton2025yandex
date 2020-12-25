@@ -1,5 +1,6 @@
 .face__mask {
-  width: 100%;
+  width: 560px;
+  height: 291px;
   background-image: url("../../../images/mask.svg");
   background-position: center;
   background-repeat: no-repeat;

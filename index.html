@@ -8,55 +8,51 @@
 </head>
 <body class="body">
   <div class="page">
-    <section class="left-content">
-      <div class="left-content__box">
-        <img class="logo left-content__logo" src="./images/LogoFaceMaskWithText.svg" alt="Здесь будет голова с маской">
-        <h1 class="left-content__title">Сгенерируй уникальную маску</h1>
-        <p class="left-content__price">Цена: 1200 руб.</p>
-        <div class="left-content__container">
-          <div class="left-content__div-left">
-            <p class="left-content__subtitle">Выбери цвет</p>
-            <div class="colors">
-              <button class="colors__button colors__button_color_blue" type="button" aria-label="pick color"></button>
-              <button class="colors__button colors__button_color_slategray" type="button" aria-label="pick color"></button>
-              <button class="colors__button colors__button_color_purple" type="button" aria-label="pick color"></button>
-            </div>
-            <p class="left-content__subtitle">Выбери размер</p>
-            <div class="colors">
-              <button class="colors__button" type="button">S</button>
-              <button class="colors__button" type="button">M</button>
-              <button class="colors__button" type="button">L</button>
-            </div>
+    <section class="left-content page__left-content">
+      <img class="logo left-content__logo" src="./images/LogoFaceMaskWithText.svg" alt="Здесь будет голова с маской">
+      <h1 class="left-content__title">Сгенерируй уникальную маску</h1>
+      <p class="left-content__price">Цена: 1200 руб.</p>
+      <div class="left-content__container">
+        <div class="left-content__div-left">
+          <p class="left-content__subtitle">Выбери цвет</p>
+          <div class="colors">
+            <button class="colors__button colors__button_color_blue" type="button" aria-label="pick color"></button>
+            <button class="colors__button colors__button_color_slategray" type="button" aria-label="pick color"></button>
+            <button class="colors__button colors__button_color_purple" type="button" aria-label="pick color"></button>
           </div>
-          <div class="left-content__div-right">
-            <p class="left-content__text">
-              Неповторимая маска имеет анатомическую форму и гарантирует защиту от вирусов.
-            </p>
-            <p class="left-content__text">
-              Созданная вами лицевая маска будет соответствовать Закону РФ “О защите нации, идентичности и свободного выражения мысли” от 1 января 2025 года.
-            </p>
+          <p class="left-content__subtitle">Выбери размер</p>
+          <div class="colors">
+            <button class="colors__button" type="button">S</button>
+            <button class="colors__button" type="button">M</button>
+            <button class="colors__button" type="button">L</button>
           </div>
         </div>
-        <button class="left-content__order-button" type="button">Добавить в корзину</button>
+        <div class="left-content__div-right">
+          <p class="left-content__text">
+            Неповторимая маска имеет анатомическую форму и гарантирует защиту от вирусов.
+          </p>
+          <p class="left-content__text">
+            Созданная вами лицевая маска будет соответствовать Закону РФ “О защите нации, идентичности и свободного выражения мысли” от 1 января 2025 года.
+          </p>
+        </div>
       </div>
+      <button class="left-content__order-button" type="button">Добавить в корзину</button>
     </section>
 
-    <section class="right-content">
+    <section class="right-content page__right-content">
       <div class="right-content__basket">
         <p class="right-content__basket-text">Корзина </p>
         <button class="right-content__basket-button" type="button"></button>
       </div>
-      <div class="right-content__container">
-        <div class="face">
-          <img class="face__eyes" src="./images/eyes.svg">
-          <div class="face__mask">
-            <p class="face__verse">Я московский озорной гуляка По всему тверскому околотку В переулках каждый собака Знает мою легкую походку</p>
-          </div>
+      <div class="face">
+        <img class="face__eyes" src="./images/eyes.svg">
+        <div class="face__mask">
+          <p class="face__verse">Я московский озорной гуляка По всему тверскому околотку В переулках каждый собака Знает мою легкую походку</p>
         </div>
-        <form class="right-content__form" name="generate-form">
-          <button class="right-content__refresh-button" type="submit">Сгенерировать</button>
-        </form>
       </div>
+      <form class="right-content__form" name="generate-form">
+        <button class="right-content__refresh-button" type="submit">Сгенерировать</button>
+      </form>
     </section>
   </div>
   <script src="./scripts/index.js"></script>
