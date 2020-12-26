@@ -63,3 +63,8 @@
 @import url("../blocks/order-form/__input/order-form__input.css");
 @import url("../blocks/order-form/__input/_street/order-form__input_street.css");
 @import url("../blocks/order-form/__input/_house/order-form__input_house.css");
+@import url("../blocks/pickup-info/pickup-info.css");
+@import url("../blocks/pickup-info/__field/pickup-info__field.css");
+@import url("../blocks/pickup-info/__label/pickup-info__label.css");
+@import url("../blocks/pickup-info/__text/pickup-info__text.css");
+@import url("../blocks/right-content-order/__hide-block/right-content-order__hide-block.css");
