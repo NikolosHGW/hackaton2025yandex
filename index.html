@@ -86,16 +86,16 @@
         </div>
       </div>
       <p class="left-content-order__total">Итог: 2400руб.</p>
-      <button class="left-content-order__buy-button" type="button">Купить</button>
+      <button class="left-content-order__buy-button" form="orderForm" type="submit" name="buy-button">Купить</button>
     </section>
 
     <section class="right-content-order page__right-content-order">
       <h2 class="right-content-order__heading">Заказ</h2>
       <div class="right-content-order__toggle">
-        <button class="right-content-order__delivery" type="button">Доставка</button>
-        <button class="right-content-order__pickup" type="button">Самовывоз</button>
+        <button class="right-content-order__delivery" type="button" disabled>Доставка</button>
+        <button class="right-content-order__pickup right-content-order__hide-button" type="button">Самовывоз</button>
       </div>
-      <form class="order-form" name="delivery-form">
+      <form class="order-form" name="delivery-form" id="orderForm">
         <fieldset class="order-form__field order-form__field_city">
           <label class="order-form__label">Регион
             <input class="order-form__input order-form__input_region" name="region-input" type="text" required>

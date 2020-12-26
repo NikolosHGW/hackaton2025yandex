@@ -56,6 +56,7 @@
 @import url("../blocks/right-content-order/__toggle/right-content-order__toggle.css");
 @import url("../blocks/right-content-order/__delivery/right-content-order__delivery.css");
 @import url("../blocks/right-content-order/__pickup/right-content-order__pickup.css");
+@import url("../blocks/right-content-order/__hide-button/right-content-order__hide-button.css");
 @import url("../blocks/order-form/order-form.css");
 @import url("../blocks/order-form/__field/order-form__field.css");
 @import url("../blocks/order-form/__label/order-form__label.css");
