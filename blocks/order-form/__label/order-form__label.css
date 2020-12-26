@@ -1,0 +1,14 @@
+.order-form__label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+  color: rgba(61, 60, 60, .7);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.order-form__label:last-of-type {
+  margin-right: 0;
+}

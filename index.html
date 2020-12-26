@@ -89,7 +89,39 @@
       <button class="left-content-order__buy-button" type="button">Купить</button>
     </section>
 
-    <section class="right-content"></section>
+    <section class="right-content-order">
+      <h2 class="right-content-order__heading"></h2>
+      <div class="right-content-order__toggle">
+        <button class="right-content-order__delivery" type="button"></button>
+        <button class="right-content-order__pickup" type="button"></button>
+      </div>
+      <form class="order-form" name="delivery-form">
+        <fieldset class="order-form__field order-form__field_city">
+          <label class="order-form__label">Регион
+            <input class="order-form__input order-form__input_region" name="region-input" type="text" required>
+          </label>
+          <label class="order-form__label">Город
+            <input class="order-form__input order-form__input_city" name="city-input" type="text" required>
+          </label>
+        </fieldset>
+        <fieldset class="order-form__field order-form__field_adress">
+          <label class="order-form__label">Улица
+            <input class="order-form__input order-form__input_street" name="street-input" type="text" required>
+          </label>
+          <label class="order-form__label">Дом
+            <input class="order-form__input order-form__input_house" name="house-input" type="text" required>
+          </label>
+        </fieldset>
+        <fieldset class="order-form__field order-form__field_digits">
+          <label class="order-form__label">Номер телефона
+            <input class="order-form__input order-form__input_phone" name="phone-input" type="tel" required>
+          </label>
+          <label class="order-form__label">Социальный идентификатор
+            <input class="order-form__input order-form__input_number" name="number-input" type="number" required>
+          </label>
+        </fieldset>
+      </form>
+    </section>
   </div>
   <script src="./scripts/index.js"></script>
 </body>
