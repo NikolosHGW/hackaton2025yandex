@@ -60,3 +60,5 @@
 @import url("../blocks/order-form/__field/order-form__field.css");
 @import url("../blocks/order-form/__label/order-form__label.css");
 @import url("../blocks/order-form/__input/order-form__input.css");
+@import url("../blocks/order-form/__input/_street/order-form__input_street.css");
+@import url("../blocks/order-form/__input/_house/order-form__input_house.css");
