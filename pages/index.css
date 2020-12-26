@@ -51,6 +51,7 @@
 @import url("../blocks/left-content-order/__total/left-content-order__total.css");
 @import url("../blocks/left-content-order/__buy-button/left-content-order__buy-button.css");
 @import url("../blocks/right-content-order/right-content-order.css");
+@import url("../blocks/page/__right-content-order/page__right-content-order.css");
 @import url("../blocks/right-content-order/__heading/right-content-order__heading.css");
 @import url("../blocks/right-content-order/__toggle/right-content-order__toggle.css");
 @import url("../blocks/right-content-order/__delivery/right-content-order__delivery.css");
