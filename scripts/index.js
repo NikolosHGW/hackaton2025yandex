@@ -1,8 +1,8 @@
 let urlsss = 'https://raw.githubusercontent.com/IlyaGusev/PoetryCorpus/master/datasets/django/all_django.json';
-let quantityMask = 0;
+// let quantityMask = 0;
 
-const orderButton = document.querySelector('.left-content__order-button');
-const basketButton = document.querySelector('.right-content__basket-button');
+// const orderButton = document.querySelector('.left-content__order-button');
+// const basketButton = document.querySelector('.right-content__basket-button');
 const refreshVerseButton = document.querySelector('.right-content__refresh-button');
 const maskPoemContent = document.querySelector('.face__verse');
 
@@ -53,9 +53,9 @@ form.addEventListener('submit', e => {
 })
 
 
-orderButton.addEventListener('click', () => {
-  alert("Маска добавлена в корзину");
-  quantityMask++;
-});
+// orderButton.addEventListener('click', () => {
+//   alert("Маска добавлена в корзину");
+//   quantityMask++;
+// });
 
-basketButton.addEventListener('click', () => {alert(`Масок в корзине: ${quantityMask} шт`)})
+// basketButton.addEventListener('click', () => {alert(`Масок в корзине: ${quantityMask} шт`)});

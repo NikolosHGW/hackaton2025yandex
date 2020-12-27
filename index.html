@@ -7,7 +7,7 @@
   <title>Стих-маска — сгенерируй уникальную маску</title>
 </head>
 <body class="body">
-  <div class="page page_type_choose page_disable">
+  <div class="page page_type_choose">
     <section class="left-content page__left-content">
       <img class="logo left-content__logo" src="./images/LogoFaceMaskWithText.svg" alt="Здесь будет голова с маской">
       <h2 class="left-content__title">Сгенерируй уникальную маску</h2>
@@ -55,7 +55,7 @@
       </form>
     </section>
   </div>
-  <div class="page page_type_order">
+  <div class="page page_type_order page_disable">
     <section class="left-content-order page__left-content-order">
       <button class="left-content-order__return-button" type="button"><img src="./images/arrow.svg"> Назад в меню</button>
       <h2 class="left-content-order__heading">Корзина</h2>
@@ -118,6 +118,11 @@
           </label>
           <label class="order-form__label">Социальный идентификатор
             <input class="order-form__input order-form__input_number" name="number-input" type="number" required>
+          </label>
+        </fieldset>
+        <fieldset class="order-form__field order-form__field_hide">
+          <label class="order-form__label">
+            <input class="order-form__input order-form__input_hide" name="hide-input" type="hidden">
           </label>
         </fieldset>
       </form>
