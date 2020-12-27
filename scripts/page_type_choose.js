@@ -84,10 +84,12 @@ function getOrderInput() {
 
 orderButton.addEventListener('click', () => {
   inputHide.value += getOrderInput();
-  console.log(inputHide.value);
   orderButton.setAttribute('disabled', 'disabled');
   orderButton.classList.add('left-content__order-button_inactive');
   addOrderedMask(masksContainer, createOrderedMaskContainer());
+  setTotal(quantityOrder);
+  enablePage(pageOrder);
+  disableCurrentPage(pageChoose);
 });
 
 

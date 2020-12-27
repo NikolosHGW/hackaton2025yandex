@@ -1,11 +1,16 @@
 const masksContainer = document.querySelector('.left-content-order__masks');
 const itemMaskTemplate = document.querySelector('#item-mask-template').content;
+const priceTotal = document.querySelector('.left-content-order__total');
 const colorHref = {
   blue: './images/mask.svg',
   slategray: './images/mask-brown.svg',
   purple: './images/mask-blue.svg'
 };
 
+
+function setTotal(num) {
+  priceTotal.textContent = `Итог: ${Number(num) * 1200}₽`;
+}
 
 function decreaseQuantity(num) {
   let quant = Number(num);
@@ -47,14 +52,14 @@ function createOrderedMaskContainer() {
     inputHide.value = '';
     inputHide.value += getOrderInput();
     removeMaskContainerItem(quantityMask.textContent);
-    console.log(inputHide.value);
+    setTotal(quantityMask.textContent);
   });
   plusButtonMask.addEventListener('click', () => {
     quantityMask.textContent = String(increaseQuantity(quantityMask.textContent));
     quantityOrder = Number(quantityMask.textContent);
     inputHide.value = '';
     inputHide.value += getOrderInput();
-    console.log(inputHide.value);
+    setTotal(quantityMask.textContent);
   });
   return maskContainerItem;
 }
