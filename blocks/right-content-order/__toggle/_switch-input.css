@@ -1,0 +1,13 @@
+.right-content-order__toogle_switch-input {
+  display: none;
+}
+
+.right-content-order__toogle_switch-input:checked + .right-content-order__toggle_switch-label {
+  font-weight: normal;
+  color: #fff;
+  transition: 0.15s ease-out;
+}
+
+.right-content-order__toogle_switch-input:checked + .right-content-order__toggle_switch-label-on ~ .right-content-order__toggle_switch-selection {
+  left: 303px;
+}

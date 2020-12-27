@@ -55,6 +55,11 @@
 @import url("../blocks/page/__right-content-order/page__right-content-order.css");
 @import url("../blocks/right-content-order/__heading/right-content-order__heading.css");
 @import url("../blocks/right-content-order/__toggle/right-content-order__toggle.css");
+@import url("../blocks/right-content-order/__toggle/_switch-input.css");
+@import url("../blocks/right-content-order/__toggle/_switch-label-off.css");
+@import url("../blocks/right-content-order/__toggle/_switch-label-on.css");
+@import url("../blocks/right-content-order/__toggle/_switch-label.css");
+@import url("../blocks/right-content-order/__toggle/_switch-selection.css");
 @import url("../blocks/right-content-order/__delivery/right-content-order__delivery.css");
 @import url("../blocks/right-content-order/__pickup/right-content-order__pickup.css");
 @import url("../blocks/right-content-order/__hide-button/right-content-order__hide-button.css");

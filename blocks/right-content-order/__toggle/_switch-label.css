@@ -1,0 +1,17 @@
+.right-content-order__toggle_switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 300px;
+  line-height: 45px;
+  font-size: 11px;
+  color: #535353;
+  text-align: center;
+  cursor: pointer;
+font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.right-content-order__toggle_switch-label:active {
+  font-weight: normal;
+}
