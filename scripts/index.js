@@ -8,9 +8,12 @@ const deliveryButton = document.querySelector('#delivery');
 const pickupButton = document.querySelector('#pickup');
 const refreshVerseButton = document.querySelector('.right-content__refresh-button');
 const maskPoemContent = document.querySelector('.face__verse');
+<<<<<<< HEAD
 const priceTotal = document.querySelector('.left-content-order__total');
 const orderForm = document.querySelector('.order-form');
 const pickupInfo = document.querySelector('.pickup-info');
+=======
+>>>>>>> feat/toggle
 
 const form = document.forms['generate-form'];
 const info3 = document.querySelector('stih-hidden');
@@ -74,10 +77,10 @@ formOrder.addEventListener('submit', e => {
   .then(() => {info.innerHTML = 'Спасибо за заказ!';}).catch(error => console.error('Error!', error.message))
 });
 
-// orderButton.addEventListener('click', () => {
-//   alert("Маска добавлена в корзину");
-//   quantityMask++;
-// });
+returnButton.addEventListener('click', () => {
+  enablePage(pageChoose);
+  disableCurrentPage(pageOrder);
+});
 
 basketButton.addEventListener('click', () => {
   enablePage(pageOrder);
