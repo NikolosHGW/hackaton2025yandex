@@ -12,7 +12,7 @@ const info_print_text = document.querySelector('.ribbon-text');
 
 form.addEventListener('submit', e => {
   e.preventDefault();
-  //info3.innerHTML = 'Отправляем…';
+
   maskPoemContent.innerHTML = 'Генерируем стих…';
 
   fetch(urlsss)
@@ -47,11 +47,23 @@ form.addEventListener('submit', e => {
 
   })
   .catch(err => { throw err });
-
-
-
-
 })
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbySL9NeUX6d079WxEVPk35Wh9daSwUDJftTVO6Ki1y7w9fxsAs1/exec';
+  const formOrder = document.forms['delivery-form'];
+  const info = document.querySelector('.left-content-order__total');
+
+  formOrder.addEventListener('submit', e => {
+    e.preventDefault();
+	  info.innerHTML = 'Отправляем…';
+    fetch(scriptURL, { method: 'POST', body: new FormData(formOrder)})
+      .then(() => {
+	  info.innerHTML = 'Спасибо за заказ!';
+	  })
+      .catch(error => console.error('Error!', error.message))
+  })
+
+
 
 
 // orderButton.addEventListener('click', () => {
