@@ -23,6 +23,7 @@
 @import url("../blocks/left-content/__div-right/left-content__div-right.css");
 @import url("../blocks/left-content/__text/left-content__text.css");
 @import url("../blocks/left-content/__order-button/left-content__order-button.css");
+@import url("../blocks/left-content/__order-button/_inactive/left-content__order-button_inactive.css");
 @import url("../blocks/right-content/right-content.css");
 @import url("../blocks/page/__right-content/page__right-content.css");
 @import url("../blocks/right-content/__basket-text/right-content__basket-text.css");

@@ -1,0 +1,6 @@
+.left-content__order-button_inactive {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid gray;
+  box-sizing: border-box;
+  color: gray;
+}

@@ -20,7 +20,7 @@ let quantityBlue = 1;
 let quantitySlategray = 1;
 let quantityPurple = 1;
 let quantityOrder = 1;
-let colorOrder = 'Blue';
+let colorOrder = 'blue';
 let sizeOrder = 'S';
 let verseOrder = faceVerse.textContent;
 // let orderInput = `${quantityOrder} x ${colorOrder} x ${verseOrder}\n`;
@@ -36,19 +36,19 @@ function identifyColor(evt = null) {
   let color = evt === null ? 'empty' : evt.target.classList[1];
   switch (color) {
     case 'colors__button_color_blue' : {
-      colorOrder = 'Blue';
+      colorOrder = 'blue';
       break;
     }
     case 'colors__button_color_slategray' : {
-      colorOrder = 'Slategray';
+      colorOrder = 'slategray';
       break;
     }
     case 'colors__button_color_purple' : {
-      colorOrder = 'Purple';
+      colorOrder = 'purple';
       break;
     }
     default: {
-      colorOrder = 'Blue';
+      colorOrder = 'blue';
       break;
     }
   }
@@ -85,6 +85,9 @@ function getOrderInput() {
 orderButton.addEventListener('click', () => {
   inputHide.value += getOrderInput();
   console.log(inputHide.value);
+  orderButton.setAttribute('disabled', 'disabled');
+  orderButton.classList.add('left-content__order-button_inactive');
+  addOrderedMask(masksContainer, createOrderedMaskContainer());
 });
 
 
