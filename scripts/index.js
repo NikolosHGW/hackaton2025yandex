@@ -11,10 +11,17 @@ const maskPoemContent = document.querySelector('.face__verse');
 // const priceTotal = document.querySelector('.left-content-order__total');
 const orderForm = document.querySelector('.order-form');
 const pickupInfo = document.querySelector('.pickup-info');
+const regionInput = orderForm.elements['region-input'];
+const cityInput = orderForm.elements['city-input'];
+const streetInput = orderForm.elements['street-input'];
+const houseInput = orderForm.elements['house-input'];
 
 const form = document.forms['generate-form'];
 const info3 = document.querySelector('stih-hidden');
 const info_print_text = document.querySelector('.ribbon-text');
+
+const pickup = document.getElementById('pickup');
+const delivery = document.getElementById('delivery');
 
 function disableCurrentPage(page) {
   page.classList.add('page_disable');
@@ -92,3 +99,14 @@ deliveryButton.addEventListener('click', () => {
 pickupButton.addEventListener('click', () => {
   pickupInfo.classList.remove('right-content-order__hide-block');
 });
+
+pickup.addEventListener('click', () => {
+  regionInput.value = '—';
+  cityInput.value = '—';
+  streetInput.value = '—';
+  houseInput.value = '—';
+})
+
+delivery.addEventListener('click', () => {
+  formOrder.reset();
+})
