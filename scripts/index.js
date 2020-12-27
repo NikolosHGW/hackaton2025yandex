@@ -41,6 +41,7 @@ form.addEventListener('submit', e => {
       console.log(element);
       maskPoemContent.insertAdjacentHTML('beforeend', element);
       maskPoemContent.insertAdjacentHTML('beforeend', '<br>');
+      verseOrder = maskPoemContent.textContent;
     });
 
 
@@ -59,3 +60,4 @@ form.addEventListener('submit', e => {
 // });
 
 // basketButton.addEventListener('click', () => {alert(`Масок в корзине: ${quantityMask} шт`)});
+
