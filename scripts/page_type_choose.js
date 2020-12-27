@@ -11,9 +11,9 @@ const faceVerse = document.querySelector('.face__verse');
 const orderButton = document.querySelector('.left-content__order-button');
 const inputHide = document.querySelector('.order-form__input_hide');
 const colorUrls = {
-  blue: 'url(../../../images/mask.svg)',
-  slategray: 'url(../../../images/mask-brown.svg)',
-  purple: 'url(../../../images/mask-blue.svg)'
+  blue: 'url(./images/mask.svg)',
+  slategray: 'url(./images/mask-brown.svg)',
+  purple: 'url(./images/mask-blue.svg)'
 };
 
 let quantityBlue = 1;

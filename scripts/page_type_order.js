@@ -1,9 +1,9 @@
 const masksContainer = document.querySelector('.left-content-order__masks');
 const itemMaskTemplate = document.querySelector('#item-mask-template').content;
 const colorHref = {
-  blue: '../../../images/mask.svg',
-  slategray: '../../../images/mask-brown.svg',
-  purple: '../../../images/mask-blue.svg'
+  blue: './images/mask.svg',
+  slategray: './images/mask-brown.svg',
+  purple: './images/mask-blue.svg'
 };
 
 
@@ -43,10 +43,10 @@ function createOrderedMaskContainer() {
   infoMask.insertAdjacentText('afterbegin', `Маска с легальным самовыражением. ${colorOrder}`);
   minusButtonMask.addEventListener('click', () => {
     quantityMask.textContent = String(decreaseQuantity(quantityMask.textContent));
-    removeMaskContainerItem(quantityMask.textContent);
     quantityOrder = Number(quantityMask.textContent);
     inputHide.value = '';
     inputHide.value += getOrderInput();
+    removeMaskContainerItem(quantityMask.textContent);
     console.log(inputHide.value);
   });
   plusButtonMask.addEventListener('click', () => {
