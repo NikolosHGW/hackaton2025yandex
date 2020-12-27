@@ -23,3 +23,6 @@ https://www.figma.com/file/aIDmUqGSGjDBtWIkHd4Y3H/Untitled?node-id=0%3A1
 
 ## Ссылка на демо на Github Pages
 https://nikoloshgw.github.io/hackaton2025yandex/
+
+## Таблица с заказами масок
+https://docs.google.com/spreadsheets/d/1AjkkB22LEecEIBRvwsvMkLGqvQ_1vxQ6QNRZATBZUZk/edit#gid=0
