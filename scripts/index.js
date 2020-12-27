@@ -8,7 +8,7 @@ const deliveryButton = document.querySelector('#delivery');
 const pickupButton = document.querySelector('#pickup');
 const refreshVerseButton = document.querySelector('.right-content__refresh-button');
 const maskPoemContent = document.querySelector('.face__verse');
-// const priceTotal = document.querySelector('.left-content-order__total');
+// для пулл рекуест
 const orderForm = document.querySelector('.order-form');
 const pickupInfo = document.querySelector('.pickup-info');
 
