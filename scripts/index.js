@@ -4,11 +4,13 @@ const pageChoose = document.querySelector('.page_type_choose');
 const pageOrder = document.querySelector('.page_type_order');
 const basketButton = document.querySelector('.right-content__basket-button');
 const returnButton = document.querySelector('.left-content-order__return-button');
-const deliveryButton = document.querySelector('.right-content-order__delivery');
-const pickupButton = document.querySelector('.right-content-order__pickup');
+const deliveryButton = document.querySelector('#delivery');
+const pickupButton = document.querySelector('#pickup');
 const refreshVerseButton = document.querySelector('.right-content__refresh-button');
 const maskPoemContent = document.querySelector('.face__verse');
 const priceTotal = document.querySelector('.left-content-order__total');
+const orderForm = document.querySelector('.order-form');
+const pickupInfo = document.querySelector('.pickup-info');
 
 const form = document.forms['generate-form'];
 const info3 = document.querySelector('stih-hidden');
@@ -80,4 +82,13 @@ formOrder.addEventListener('submit', e => {
 basketButton.addEventListener('click', () => {
   enablePage(pageOrder);
   disableCurrentPage(pageChoose);
+});
+
+deliveryButton.addEventListener('click', () => {
+  orderForm.classList.remove('right-content-order__hide-block');
+  pickupInfo.classList.add('right-content-order__hide-block');
+});
+
+pickupButton.addEventListener('click', () => {
+  pickupInfo.classList.remove('right-content-order__hide-block');
 });

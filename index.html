@@ -80,14 +80,14 @@
 
     <section class="right-content-order page__right-content-order">
       <h2 class="right-content-order__heading">Заказ</h2>
-      <form class="order-form" name="delivery-form" id="orderForm">
       <div class="right-content-order__toggle">
-        <input type="radio" class="right-content-order__toogle_switch-input" name="delivery_pickup" value="Доставка" id="delivery" checked>
+        <input form="orderForm" type="radio" class="right-content-order__toogle_switch-input" name="delivery_pickup" value="Доставка" id="delivery" checked>
         <label for="delivery" class="right-content-order__toggle_switch-label right-content-order__toggle_switch-label-off">Доставка</label>
-        <input type="radio" class="right-content-order__toogle_switch-input" name="delivery_pickup" value="Самовывоз" id="pickup">
+        <input form="orderForm" type="radio" class="right-content-order__toogle_switch-input" name="delivery_pickup" value="Самовывоз" id="pickup">
         <label for="pickup" class="right-content-order__toggle_switch-label right-content-order__toggle_switch-label-on">Самовывоз</label>
         <span class="right-content-order__toggle_switch-selection"></span>
       </div>
+      <form class="order-form" name="delivery-form" id="orderForm">
         <fieldset class="order-form__field order-form__field_city">
           <label class="order-form__label">Регион
             <input class="order-form__input order-form__input_region" name="region-input" type="text" required>
