@@ -21,6 +21,15 @@ function addOrderedMask(container, maskOrderedItem) {
   container.prepend(maskOrderedItem);
 }
 
+function removeMaskContainerItem(num) {
+  if (num == 0) {
+    masksContainer.innerHTML = '';
+    orderButton.removeAttribute('disabled', 'disabled');
+    orderButton.classList.remove('left-content__order-button_inactive');
+    inputHide.value = '';
+  }
+}
+
 function createOrderedMaskContainer() {
   const maskContainerItem = itemMaskTemplate.cloneNode(true);
   const imageMask = maskContainerItem.querySelector('.item-mask__mask');
@@ -34,9 +43,18 @@ function createOrderedMaskContainer() {
   infoMask.insertAdjacentText('afterbegin', `Маска с легальным самовыражением. ${colorOrder}`);
   minusButtonMask.addEventListener('click', () => {
     quantityMask.textContent = String(decreaseQuantity(quantityMask.textContent));
+    removeMaskContainerItem(quantityMask.textContent);
+    quantityOrder = Number(quantityMask.textContent);
+    inputHide.value = '';
+    inputHide.value += getOrderInput();
+    console.log(inputHide.value);
   });
   plusButtonMask.addEventListener('click', () => {
     quantityMask.textContent = String(increaseQuantity(quantityMask.textContent));
+    quantityOrder = Number(quantityMask.textContent);
+    inputHide.value = '';
+    inputHide.value += getOrderInput();
+    console.log(inputHide.value);
   });
   return maskContainerItem;
 }
