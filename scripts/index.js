@@ -1,14 +1,26 @@
 let urlsss = 'https://raw.githubusercontent.com/IlyaGusev/PoetryCorpus/master/datasets/django/all_django.json';
-// let quantityMask = 0;
 
-// const orderButton = document.querySelector('.left-content__order-button');
-// const basketButton = document.querySelector('.right-content__basket-button');
+const pageChoose = document.querySelector('.page_type_choose');
+const pageOrder = document.querySelector('.page_type_order');
+const basketButton = document.querySelector('.right-content__basket-button');
+const returnButton = document.querySelector('.left-content-order__return-button');
+const deliveryButton = document.querySelector('.right-content-order__delivery');
+const pickupButton = document.querySelector('.right-content-order__pickup');
 const refreshVerseButton = document.querySelector('.right-content__refresh-button');
 const maskPoemContent = document.querySelector('.face__verse');
+const priceTotal = document.querySelector('.left-content-order__total');
 
 const form = document.forms['generate-form'];
 const info3 = document.querySelector('stih-hidden');
 const info_print_text = document.querySelector('.ribbon-text');
+
+function disableCurrentPage(page) {
+  page.classList.add('page_disable');
+}
+
+function enablePage(page) {
+  page.classList.remove('page_disable');
+}
 
 form.addEventListener('submit', e => {
   e.preventDefault();
@@ -47,29 +59,25 @@ form.addEventListener('submit', e => {
 
   })
   .catch(err => { throw err });
-})
+});
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbySL9NeUX6d079WxEVPk35Wh9daSwUDJftTVO6Ki1y7w9fxsAs1/exec';
-  const formOrder = document.forms['delivery-form'];
-  const info = document.querySelector('.left-content-order__total');
+const scriptURL = 'https://script.google.com/macros/s/AKfycbySL9NeUX6d079WxEVPk35Wh9daSwUDJftTVO6Ki1y7w9fxsAs1/exec';
+const formOrder = document.forms['delivery-form'];
+const info = document.querySelector('.left-content-order__total');
 
-  formOrder.addEventListener('submit', e => {
-    e.preventDefault();
-	  info.innerHTML = 'Отправляем…';
-    fetch(scriptURL, { method: 'POST', body: new FormData(formOrder)})
-      .then(() => {
-	  info.innerHTML = 'Спасибо за заказ!';
-	  })
-      .catch(error => console.error('Error!', error.message))
-  })
-
-
-
+formOrder.addEventListener('submit', e => {
+  e.preventDefault();
+  info.innerHTML = 'Отправляем…';
+  fetch(scriptURL, { method: 'POST', body: new FormData(formOrder)})
+  .then(() => {info.innerHTML = 'Спасибо за заказ!';}).catch(error => console.error('Error!', error.message))
+});
 
 // orderButton.addEventListener('click', () => {
 //   alert("Маска добавлена в корзину");
 //   quantityMask++;
 // });
 
-// basketButton.addEventListener('click', () => {alert(`Масок в корзине: ${quantityMask} шт`)});
-
+basketButton.addEventListener('click', () => {
+  enablePage(pageOrder);
+  disableCurrentPage(pageChoose);
+});
